@@ -2,8 +2,11 @@
 
 Hey Welcome to the Data Structures in Python Repo.
 Code :
-1) LinkedLists:
-    1) linkedList
-    2) doubleLinkedlist
-2) further will be uploded... 
-    
+
+1. LinkedLists:
+   1. linkedList
+   2. doubleLinkedlist
+2. Stack
+3. Queue
+   4)Tree
+   BinarySearchTree
