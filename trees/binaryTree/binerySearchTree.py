@@ -29,6 +29,27 @@ class Tree():
                     return True
                 temp=temp.right
 
+    def contains(self,value):
+        if(self.root is  None):
+            return False
+        temp=self.root
+        while temp is not None:
+            if(value < temp.value):
+                temp=temp.left
+            elif(value > temp.value):
+                temp=temp.right
+            else:
+                return True
+        return False            
+
+
+
+                
+
+
+
+
+
 
                 
 
@@ -37,10 +58,10 @@ tree.insert(2)
 tree.insert(1)
 tree.insert(3)
 
-
 print(tree.root.value)
 print(tree.root.left.value)
 print(tree.root.right.value)
+print(tree.contains(4))
 
                 
 
